@@ -1,0 +1,37 @@
+
+
+<div class="container">
+  <div class="logo">
+    <img id="city1" src="/images/city2.png" alt="">
+    <h1 id="logotype">BreezerID</h1>
+  </div>
+
+  <form action="/place" method="POST">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+      </div>
+      <input id="city" type="text" class="form-control" placeholder="City""
+        aria-describedby="basic-addon1">
+    </div>
+    <div class="button">
+      <div id="btn" class="btn blue" type="submit">Air Quality</div>
+      <div id="btn2" class="btn blue" type="submit">Pollen</div>
+    </div>
+  </form>
+
+
+  <div id="air" class="in-block"></div>
+  <div id="pollen" class="in-block"></div>
+</div>
+
+
+
+<script src="//cdn.jsdelivr.net/handlebarsjs/4.0.5/handlebars.runtime.min.js"></script>
+
+<script>
+  const templateCode = {{{ template }}};
+  const airTemplate = Handlebars.template(templateCode);
+
+  const templateCode2 = {{{ template2 }}};
+  const pollenTemplate = Handlebars.template(templateCode2);
+</script>

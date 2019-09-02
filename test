@@ -1,0 +1,23 @@
+{
+   "candidates" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.755826,
+               "lng" : 37.6172999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 56.0214609,
+                  "lng" : 37.9678221
+               },
+               "southwest" : {
+                  "lat" : 55.142591,
+                  "lng" : 36.8032249
+               }
+            }
+         }
+      }
+   ],
+   "status" : "OK"
+}
